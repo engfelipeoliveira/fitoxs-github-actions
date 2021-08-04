@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: CURL no site $URL_TEST
+      - name: CURL
         run: curl $URL_TEST
         env:
-          URL_TEST: http://globo.com
+          URL_TEST: http://www.unimedvr.com.br
